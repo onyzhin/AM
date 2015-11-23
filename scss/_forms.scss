@@ -1,7 +1,18 @@
-
+input{
+	display: block;
+	width: 100%;
+	outline: none;
+	border: 1px solid transparent;
+	&.search{
+		color:#626262;
+		font-size: 16px;
+		&:after{
+			
+		}
+	}
+}
 
 .zForm{
-
 	.zNice-checkbox,.zNice-radio{
 		margin-right:9px;
 		& + .zForm-text{

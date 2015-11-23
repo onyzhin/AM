@@ -1,8 +1,21 @@
 .header{
 	background: $grey;
+	height: 100px;
 
 	&-menu{
 		background: $grey;
+		.navbar{
+			border: 1px solid #3e3f40;
+			@extend %clear;
+			&-nav{
+				width: pxtopercent(682); 
+				float: left;
+			}
+			&-search{
+				width: pxtopercent(258); 
+				float: left;
+			}
+		}
 		ul{
 			display: table;
 			width: 100%;
@@ -24,4 +37,20 @@
 			}
 		}
 	}
+	&-logo{
+
+	}
+	&-phone{
+	}
+}
+
+.contacts-phone{
+	font-size: 14px;
+	color:#7a7a7a;
+	.icon{
+
+	}
+	span{
+		b{}
+	}	
 }

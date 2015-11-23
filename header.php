@@ -45,7 +45,7 @@
 	<header class="header">
 		<div class="container">
 			<a href="#" class="header-logo"><img src="images/logo.png" height="33" width="210" alt="" /></a>
-			<a href="+7 (900) 700-08-11" class="header-phone"><i class="icon icon-phone"></i><span></span></a>
+			<a href="+7 (900) 700-08-11" class="contacts-phone header-phone"><i class="icon icon-phone"></i><span>+7 (900)<b> 700-08-11</b></span></a>
 		</div>
 	</header>
 	<div class="header-menu">
@@ -68,7 +68,7 @@
 						<li><a href="#">Our partners</a></li>
 					</ul>
 					<div class="navbar-search">
-						<input type="text" />
+						<input type="text" class="search" />
 					</div>
 				</div>
 			</nav>
