@@ -1,0 +1,23 @@
+@media (min-width: 960px) {
+	.container {
+		width: 980px;
+	}
+}
+@media (min-width:768px){ 
+	.navbar-toggle {
+		display: none;
+	}
+	.navbar-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		padding-bottom: 0;
+		overflow: visible !important;
+	}
+}
+@media (max-width:768px){ 
+	
+}
+
+@media (max-width:480px){
+	
+}
