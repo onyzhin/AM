@@ -15,14 +15,55 @@ body *{
 .main {
 	padding-top: 40px;
 	padding-bottom: 70px;
+	.content {
+		float: right;
+		width: pxtopercent(661); 
+	}
 	.sidebar {
 		width: pxtopercent(211);
 		margin-right: pxtopercent(67);
-		float: left;
-	}
-	.content {
-		float: left;
-		width: pxtopercent(663);
+		float: right;
+		&-menu{
+			background: $grey;			
+		
+			&-title{
+				font-size: 16px;
+				font-weight: bold;
+				color:#ffffff;	
+				padding-left: 16px;	
+				line-height: 60px;		
+			}
+			&-list{
+				ul{
+					li{
+						line-height: 60px;
+						a{
+							border-top: 1px solid #3a3a3a;
+							display: block;
+							font-size: 14px;
+							color:#ffffff;
+							text-decoration: none;
+							padding-left: 30px;
+							position: relative;
+							&:before{
+								content:'';
+								@extend %full;
+								left: 15px;
+							}
+						}
+						span{
+							position: relative;
+							z-index: 1;
+						}
+						&:hover a:before,
+						&.active a:before{
+							background: #3a3a3a;
+							z-index: 0;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 

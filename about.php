@@ -17,8 +17,8 @@
 		</div>
 		<div class="sidebar">
 			<div class="sidebar-menu">
-				<div class="sidebar-title">About Us</div>
-				<div class="sidebar-list">
+				<div class="sidebar-menu-title">About Us</div>
+				<div class="sidebar-menu-list">
 					<ul>
 						<li><a href="#"><span>Board of directors</span></a></li>
 						<li><a href="#"><span>Investment Manager</span></a></li>
