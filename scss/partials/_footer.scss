@@ -1,0 +1,20 @@
+.footer{	
+	background: $grey;
+	min-height: 100px;
+
+	&-logo{
+		float: left;
+		width: pxtopercent(182);
+		line-height: 60px;
+	}
+	&-menu{
+		@extend .header-menu;
+		float: left;
+		width: pxtopercent(590);
+		padding-top: 22px;
+	}
+	&-phone{
+		float: right;
+		line-height: 100px;
+	}
+}

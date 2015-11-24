@@ -1,0 +1,42 @@
+.board{
+	&-list{
+ 
+	}
+	&-item{
+		margin-bottom: 110px;
+		@extend %last; 
+		&-head{
+			@extend %clear;
+			@extend %table;
+			margin-bottom: 29px;
+		}
+		&-image{
+			@extend %table-cell;
+			padding-right: 48px;
+			width: 140px;
+			img{
+				@include border-radius(50%); 
+			}
+		}	
+		&-text{
+			@extend %table-cell;
+		}	
+		&-title{
+			font-size: 26px;
+			color: rgb(41, 41, 41);
+			line-height: 1.385;
+			font-weight: bold;
+			margin-bottom: 7px;
+		}
+		&-subtitle{
+			font-size: 22px;
+			color: rgb(98, 98, 98);
+			line-height: 1.182;
+		}
+		&-body{
+			p{
+				line-height: 1.625;
+			}
+		}
+	}
+}
