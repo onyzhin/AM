@@ -1,0 +1,11 @@
+.contacts{
+	@extend %clear;
+	&-data{
+		width: pxtopercent(406);
+		float: left;
+	}
+	&-form{
+		width: pxtopercent(502);
+		float: left;
+	} 
+} 
