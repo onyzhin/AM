@@ -105,11 +105,15 @@ function navbartoggle(){
 	});
 }
 
+function tableResponsive(){
+	$('table').wrap('<div class="table-wrap"></div>');
+}
 
 $(document).ready(function(){
 	modernize();
 	navbartoggle();
 	slickInit();
+	tableResponsive();
 	$('.footer_placeholder').height($('.footer').outerHeight());
 });
 

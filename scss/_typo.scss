@@ -138,6 +138,9 @@
 	}
 	table{border-collapse:collapse;}
 	table td{border:1px solid;}
+	.table-wrap{
+		overflow: auto;
+	}
 	table{
 		width: 100%;
 		th{
