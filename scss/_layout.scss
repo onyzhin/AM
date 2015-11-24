@@ -13,19 +13,16 @@ body *{
 }
 
 .main {
-	.sidebar_w {
-		width: 180px;
-		float: left;
-	}
+	padding-top: 40px;
+	padding-bottom: 70px;
 	.sidebar {
-		margin: 0;
-	}
-	.content_w {
+		width: pxtopercent(211);
+		margin-right: pxtopercent(67);
 		float: left;
-		width: 780px;
 	}
 	.content {
-		margin: 0;
+		float: left;
+		width: pxtopercent(663);
 	}
 }
 

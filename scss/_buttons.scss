@@ -1,7 +1,7 @@
 /*buttons*/
 .button {
 	min-width: 167px;
-	padding: 0 4px;
+	padding: 0 14px;
 	display: inline-block;
 	vertical-align: top;
 	cursor: pointer;
@@ -11,12 +11,21 @@
 	line-height: 48px;
 	color: #fff !important;
 	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
 	text-align: center;
-	background: #6d9aea;
-	border: 0px solid #c10e0e;
+	background: #f93f3f;
+	border: 0px solid #c10e0e !important;
 
+	&.btn-hover,
 	&:hover{
-		background: #6d0aea;
+		background: #ff6565;
+	}
+	&.btn-gray{
+		background: #292929;
+		&:hover{
+			background: #514f4f;			
+		}
 	}
 	input {
 		width: 100%;

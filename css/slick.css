@@ -89,6 +89,7 @@
 .slick-slide img
 {
     display: block;
+    margin: 0 auto;
 }
 .slick-slide.slick-loading img
 {
@@ -127,9 +128,9 @@
 
     display: block;
 
-    width: 21px;
-    height: 36px;
-    margin-top: -18px;
+    width: 42px;
+    height: 42px;
+    margin-top: -21px;
     padding: 0;
 
     cursor: pointer;
@@ -137,16 +138,16 @@
     color: transparent;
     border: none;
     outline: none;
-    background-image: url(../images/slider-arrows.png);
+    background: url(../images/slider-arrows.png);
     background-repeat: no-repeat;
 }
 .slick-prev{
     background-position: left top;  
-    left: 0;  
+    left: 60px;  
 }
 .slick-next{    
     background-position: right top;
-    right: 0;  
+    right: 60px;  
 }
 .slick-prev:hover{
     background-position: left bottom;

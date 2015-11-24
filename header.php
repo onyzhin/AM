@@ -14,6 +14,8 @@
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
+	<script src="js/slick.js" type="text/javascript"></script>
 	<!-- remove Files -->
 	<script src="develop/autocssrenew.js" type="text/javascript"></script>
 	<!-- remove Files -->	
