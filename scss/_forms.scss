@@ -3,9 +3,22 @@ input{
 	width: 100%;
 	outline: none;
 	border: 1px solid transparent;
+	&::-webkit-input-placeholder {
+		color: #626262;
+	}
+	&:-moz-placeholder {
+		color: #626262;
+	}
+	&::-moz-placeholder {
+		color: #626262;
+	}
+	&:-ms-input-placeholder {
+		color: #626262;
+	}
 	&.search{
-		color:#626262;
+		color:#fff;
 		font-size: 16px;
+		background: transparent;
 		&:after{
 			
 		}
@@ -91,4 +104,71 @@ input{
 		text-decoration: none;
 		font-size: 14px;
 	}
+}
+
+.selectBox {
+	display: inline-block;
+	position: relative;
+	width: 284px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(222, 222, 222);
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+}
+.selectBox:hover {
+	color: #000;
+	text-decoration: none;
+}
+.selectBox-label {
+	padding: 0 15px 0 15px;
+}
+.selectBox-arrow {
+	position: absolute;
+	left: auto;
+	right: 15px;
+	top: 50%;
+	margin-top: -3.5px;
+	width: 12px;
+	height: 7px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(../images/icon-arrow-down.png) 0 0 no-repeat;
+}
+.selectBox-dropdown-menu {
+	position: absolute;
+	list-style: none;
+	font-size: 14px;
+	line-height: 20px;
+	background: #fff;
+    margin: -3px 0px 0px 0px;
+    width: 284px !important;
+    z-index: 3;
+	padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-top: 0;
+	border-color: rgb(222, 222, 222);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.selectBox-dropdown-menu li {
+	display: block;	
+}
+.selectBox-dropdown-menu li a {
+	display: block;
+	padding: 0 2px;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;	
+}
+.selectBox-dropdown-menu li a:hover {
+	color: #fff;	
+	text-decoration: none;
+	background: #333;
 }

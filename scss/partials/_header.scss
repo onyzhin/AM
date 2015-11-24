@@ -1,6 +1,5 @@
 .header{
 	background: $grey;
-	height: 100px;
 
 	&-menu{
 		background: $grey;
@@ -14,39 +13,61 @@
 			&-search{
 				width: pxtopercent(258); 
 				float: left;
+				border-left: 1px solid #3e3f40;
+				position: relative;
+
+				input[type="text"]{
+					height: 60px;
+					line-height: 60px;
+					padding: 0 62px 0 27px; 
+				}
+				input[type="submit"]{
+					border: 0;
+					background: url(../images/icon-search.png) no-repeat center;
+					width:62px;
+					height: 100%;
+					position: absolute;
+					top:0;
+					bottom: 0;
+					right: 0;
+					cursor: pointer;
+				}
 			}
 		}
 		ul{
-			display: table;
 			width: 100%;
 			li{
-				display: table-cell;
-				vertical-align: middle;
+				float: left;
 				text-align: center;
+				padding: 0 13px;
+				line-height: 60px;
 				a{
 					text-decoration: none;
 					font-size: 16px;
 					color: #c4c4c4;
 				}
-				&:first-child{
-					text-align: left;
-				}
-				&:last-child{
-					text-align: right;
-				}
 			}
 		}
 	}
 	&-logo{
-
+		width: 211px;
+		display: block;
+		float: left;
+		margin-left: 15px;
+		padding: 34px 0 32px 0;
 	}
 	&-phone{
+		float: right;
+		line-height: 100px;
+		text-decoration: none;
 	}
 }
 
 .contacts-phone{
 	font-size: 14px;
 	color:#7a7a7a;
+	border-bottom: 0;
+	text-decoration: none;
 	.icon{
 
 	}

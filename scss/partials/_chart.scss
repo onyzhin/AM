@@ -1,0 +1,53 @@
+.chart{
+	padding-top: 55px;
+	&-item{
+		@extend %clear;
+		margin-bottom: 135px;
+		@extend %last;
+	}
+	&-list{
+		padding: 0 16px;  
+	}
+	&-box{
+		width: pxtopercent(688);
+		float: right;
+		padding: 0 20px;
+		&-axes{
+			max-width: 570px;
+			margin: 0 auto;
+			margin-bottom: 15px;
+		}
+		&-info{
+			float: right;
+		}
+		&-footer{
+			padding-top: 20px;
+			max-width: 570px;
+			margin: 0 auto;
+			border-top: 2px solid #f2f2f2;
+		}
+		&-price{
+			color: #ff3333;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		&-percent{
+			color: #757a7f;
+			font-size: 12px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+	}
+	&-title{
+		width: pxtopercent(222);
+		float: right;
+		font-size: 18px;
+		color: rgb(36, 36, 36);
+		text-transform: uppercase;
+		line-height: 1.333;
+		text-align: left;
+		font-weight: bold;
+		margin-bottom: 25px;
+	}  
+}     

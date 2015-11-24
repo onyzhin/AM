@@ -1,19 +1,21 @@
 
-%heading {font-weight:bold;margin-bottom:20px;color:$ctextColor;text-transform: uppercase;}
+%heading {font-weight:bold;margin-bottom:20px;color:$ctextColor;}
 
 
 .mainheading,.ctext h1,h1{
 	@extend %heading;
 	font-size: 30px;
 	line-height: 48px;
+	text-transform: uppercase;
 	em{
-
+		color: #f93f3f;
 	}
 }
 .subheading,.ctext h2,h2{
 	@extend %heading;
 	font-size: 26px;
 	line-height: 40px;
+	text-transform: uppercase;
 }
 .thirdheading,.ctext h3,h3{
 	@extend %heading;

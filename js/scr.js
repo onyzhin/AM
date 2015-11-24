@@ -35,6 +35,16 @@ function inputNumber(block) {
 	});
 }
 function slickInit(){
+	if ($('.slider-back').length){
+		$('.slider-back').slick({
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: false,
+		  fade: true,
+		  autoplay: true,
+  		  autoplaySpeed: 5000,
+		});
+	}
 	if ($('.slider').length){
 		$('.slider').slick({
 		  slidesToShow: 1,
@@ -115,6 +125,7 @@ $(document).ready(function(){
 	slickInit();
 	tableResponsive();
 	$('.footer_placeholder').height($('.footer').outerHeight());
+	$("select").selectBox();
 });
 
 $(window).resize(function(){

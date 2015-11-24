@@ -1,20 +1,29 @@
 .footer{	
 	background: $grey;
-	min-height: 100px;
 
 	&-logo{
 		float: left;
-		width: pxtopercent(182);
-		line-height: 60px;
+		width: pxtopercent(188);
+		padding: 41px 5.74468% 38px 0;
+		img{
+			-webkit-filter: grayscale(1);
+ 			filter: grayscale(1);
+		}
 	}
 	&-menu{
 		@extend .header-menu;
 		float: left;
 		width: pxtopercent(590);
-		padding-top: 22px;
+		padding-top: 24px;
+		ul li{
+			padding: 0 10px;
+			a{
+				font-size: 14px;
+			}
+		}
 	}
 	&-phone{
 		float: right;
-		line-height: 100px;
+		padding-top: 44px;
 	}
 }

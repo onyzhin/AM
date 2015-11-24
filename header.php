@@ -14,6 +14,7 @@
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+	<script src="js/jquery.selectBox.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
 	<script src="js/slick.js" type="text/javascript"></script>
 	<!-- remove Files -->
@@ -46,12 +47,8 @@
 	?>
 	<header class="header">
 		<div class="container">
-			<a href="#" class="header-logo"><img src="images/logo.png" height="33" width="210" alt="" /></a>
+			<a href="#" class="header-logo"><img src="images/logo.png"  alt="" /></a>
 			<a href="+7 (900) 700-08-11" class="contacts-phone header-phone"><i class="icon icon-phone"></i><span>+7 (900)<b> 700-08-11</b></span></a>
-		</div>
-	</header>
-	<div class="header-menu">
-		<div class="container">
 			<div class="navbar-toggle">
 				<span class="icon-container">
 					<span class="line line01"></span>
@@ -60,6 +57,10 @@
 					<span class="line line04"></span>
 				</span>
 			</div>
+		</div>
+	</header>
+	<div class="header-menu">
+		<div class="container">
 			<nav class="navbar topMenu" role="navigation">
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
@@ -70,7 +71,8 @@
 						<li><a href="#">Our partners</a></li>
 					</ul>
 					<div class="navbar-search">
-						<input type="text" class="search" />
+						<input type="text" placeholder="Поиск" class="search" />
+						<input type="submit"  value="" />
 					</div>
 				</div>
 			</nav>
