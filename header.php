@@ -48,7 +48,7 @@
 	<header class="header">
 		<div class="container">
 			<a href="#" class="header-logo"><img src="images/logo.png"  alt="" /></a>
-			<a href="+7 (900) 700-08-11" class="contacts-phone header-phone"><i class="icon icon-phone"></i><span>+7 (900)<b> 700-08-11</b></span></a>
+			<a href="tel:+79007000811" class="contacts-phone header-phone"><i class="icon icon-phone-gray"></i><span>+7 (900)<b> 700-08-11</b></span></a>
 			<div class="navbar-toggle">
 				<span class="icon-container">
 					<span class="line line01"></span>
@@ -61,7 +61,7 @@
 	</header>
 	<div class="header-menu">
 		<div class="container">
-			<nav class="navbar topMenu" role="navigation">
+			<nav class="navbar topMenu">
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="#">Home</a></li>

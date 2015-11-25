@@ -5,13 +5,15 @@
 		background: $grey;
 		.navbar{
 			border: 1px solid #3e3f40;
+		    margin-left: -16px;
+   			margin-right: -16px;
 			@extend %clear;
 			&-nav{
-				width: pxtopercent(682); 
+				width: pxtopercent(682, 940);  
 				float: left;
 			}
 			&-search{
-				width: pxtopercent(258); 
+				width: pxtopercent(258, 940); 
 				float: left;
 				border-left: 1px solid #3e3f40;
 				position: relative;

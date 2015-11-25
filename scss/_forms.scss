@@ -21,7 +21,7 @@
 	}
 }
 
-input{
+input:not([type="submit"]){
 	@extend %input;
 	height: 46px;
 	line-height: 46px;
@@ -42,10 +42,13 @@ input{
 			
 		}
 	}
-	&[type="submit"] {
-		@extend .button; 
-		width: auto;
-	}
+}
+
+[type="submit"] {
+	@extend .button; 
+	width: auto;
+	min-width: auto;
+	outline: none;
 }
 
 textarea{	
@@ -56,46 +59,19 @@ textarea{
 	font-size: 11px;	
 }
 
-
-.contacts-form{
-	&-main{
-		
-	}
-	&-field{
-		margin-bottom: 26px;
-	}
-	&-col{
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-	&-row{
-		margin-left: -5px;
-		margin-right: -5px;
-		@extend %clear;
-		&.col2Item{
-			.contacts-form-col{
-				width: 50%;
-				float: left;
-			}
-		}
-	}	
-	.selectBox{
-		@extend %input;
-	} 
-	[type="submit"] {
-		float: right;
-	}
-	input,
-	textarea,
-	.selectBox
-	{
-		font-weight: bold;
-		text-transform: uppercase;
-		color: #626262;
-		font-size: 11px;
-	}
-}
-
+select{
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dedede;
+    border-radius: 5px;
+    background: #fff;
+    width: 100%;
+} 
 .selectBox {
 	display: inline-block;
 	position: relative;
@@ -114,6 +90,7 @@ textarea{
 }
 .selectBox:hover {
 	text-decoration: none;
+	color: #000;
 }
 .selectBox-label {
 	padding: 0 15px 0 15px;

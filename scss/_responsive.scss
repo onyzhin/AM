@@ -153,6 +153,14 @@
 			margin-bottom: 10px;
 		}
 	}
+	.contacts{
+		&-data{
+			width: 100%;
+		}
+		&-form{
+			width: 100%;
+		}
+	}
 }
 
 @media (max-width:480px){
@@ -173,4 +181,8 @@
 			}
 		}
 	}	
+	.footer-phone {
+	    font-size: 14px;
+	    padding-top: 46px;
+	}
 }

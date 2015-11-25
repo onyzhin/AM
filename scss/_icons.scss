@@ -31,26 +31,18 @@
 	transform:rotate($angle);
 }
 
+%sprite{
+	background: url('../images/sprite.png') no-repeat;
+}
 .icon {
 	@extend %inline-middle;
+	text-indent: -9999px;
+	text-align: left;
+	overflow: hidden;  
 	
-	
-
+	&.icon-baloon { background-position: -2px -0px; width: 44px; height: 68px;@extend %sprite; }
+	&.icon-mail { background-position: -2px -70px; width: 14px; height: 11px; @extend %sprite;}
+	&.icon-map { background-position: -18px -70px; width: 10px; height: 14px; @extend %sprite;}
+	&.icon-phone-red { background-position: -30px -70px; width: 10px; height: 12px; @extend %sprite;}
+	&.icon-phone-gray { background-position: -2px -83px; width: 6px; height: 6px; @extend %sprite;}
 }
-
-
- @mixin socIcon($bg){
- 	background-position: $bg;
- }
-
- .social-icon {
- 	background-image: url('../images/social-icon.png');
- 	background-repeat: no-repeat;
-	
- 	&_fb {
- 		@include socIcon(0 0);
- 	}
- 	&_vk {
-		@include socIcon(-15px 0);
-	}
- }

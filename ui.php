@@ -21,7 +21,7 @@
 			<br>
 			<br>
 			<div class="slider">
-				<div><img src="pictures/slider-1.png" height="400" width="924" alt=""></div>
+				<div><img src="pictures/slider-1.png" alt=""></div>
 				<div><img src="pictures/slider-1.png" alt=""></div>
 			</div>
 			<br>
@@ -118,7 +118,7 @@
 			<br>
 			<ul>
 				<li>Пункт</li>
-				<li>Пункт
+				<li><a href="/">Пункт</a>
 					<ul>
 						<li>Пункт
 							<ul>
@@ -127,7 +127,7 @@
 						</li>
 					</ul>
 				</li>
-				<li>Пункт</li>
+				<li></li>
 				<li>Пункт</li>
 			</ul>
 		</div>

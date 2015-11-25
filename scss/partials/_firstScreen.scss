@@ -9,7 +9,12 @@
     	padding: 0 36px;
     	h1{
 		    margin-bottom: 45px;
-    	}
+    	} 
+	}
+	&.innerpage,
+	&.innerpage .slick-slide{
+		min-height: 320px;
+		height: 320px;
 	}
 }
 .slider-back{

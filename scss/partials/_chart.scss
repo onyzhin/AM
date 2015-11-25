@@ -5,13 +5,11 @@
 		margin-bottom: 135px;
 		@extend %last;
 	}
-	&-list{
-		padding: 0 16px;  
+	&-list{ 
 	}
 	&-box{
 		width: pxtopercent(688);
 		float: right;
-		padding: 0 20px;
 		&-axes{
 			max-width: 570px;
 			margin: 0 auto;

@@ -11,7 +11,7 @@
 					<li><a href="#">Our partners</a></li>
 				</ul>
 			</div>
-			<a href="+7 (900) 700-08-11" class="contacts-phone footer-phone"><i class="icon icon-phone"></i><span>+7 (900)<b> 700-08-11</b></span></a>
+			<a href="tel:+79007000811" class="contacts-phone footer-phone"><i class="icon icon-phone-gray"></i><span>+7 (900)<b> 700-08-11</b></span></a>
 		</div>
 	</footer>
 </body>

@@ -2,6 +2,14 @@
 %heading {font-weight:bold;margin-bottom:20px;color:$ctextColor;}
 
 
+a{
+	text-decoration: none;
+	color: #646464;
+
+	&:hover{color:#f93f3f;}
+	&:visited{color:#8f8f8f;}
+}
+
 .mainheading,.ctext h1,h1{
 	@extend %heading;
 	font-size: 30px;
@@ -29,7 +37,11 @@
 }
 .fiveheading,.ctext h5,h5{
 	@extend %heading;
-	font-size: px(16);
+	font-size:24px;
+	font-weight: normal;
+	em{
+		color: #ff0000;
+	}
 }
 
 .bTitle{
@@ -75,7 +87,7 @@
 		    line-height: 1.625;
 		    @extend %last;
 			&:before {
-			    content: counters(item, ".");
+			    content: counters(item, ".")". ";
 			    counter-increment: item;
 			    position: absolute;
 			    margin-right: 100%;
@@ -171,6 +183,15 @@
 			color: rgb(98, 98, 98);
 			line-height: 1.5;
 			text-align: left;
+		}
+	}
+}
+
+.search-list{
+	ol{
+		li{
+			font-weight: normal;
+			&:before{color: #c2c2c2;}
 		}
 	}
 }

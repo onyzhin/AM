@@ -1,11 +1,11 @@
 <div class="firstScreen">
 	<div class="slider-back">
-		<div style="background-image: url(../pictures/slider-bg-1.png);"></div>
-		<div style="background-image: url(../pictures/slider-bg-2.jpg);"></div>
+		<div style="background-image: url(pictures/slider-bg-1.png);"></div>
+		<div style="background-image: url(pictures/slider-bg-2.jpg);"></div>
 	</div>
 	<div class="container firstScreen-text ctext">
-		<h1><em>I A&M rich!</em> A&M international capital <br> investment limited</h1>
-		<h3>A&M Strategy Portfolio</h3>
+		<h1><em>I A&amp;M rich!</em> A&amp;M international capital <br> investment limited</h1>
+		<h3>A&amp;M Strategy Portfolio</h3>
 		<p>Это хедж фонд, зарегистрированный на Британских Виргинских Островах 
 		(BVI) в июле 2015 года, и открыт для подписки с 01 сентября 2015 года.</p>
 		<p>Основным направление работы фонда является получения стабильного дохода 
@@ -23,9 +23,9 @@
 					<div class="chart-box">
 						<div class="chart-box-axes"><img src="images/chart-1.png" alt=""></div>
 						<div class="chart-box-footer">
-							<select name="" id="">
-								<option value="">С момента основания</option>
-								<option value="">2</option>
+							<select name="parameter">
+								<option value="parameter">С момента основания</option>
+								<option value="parameter2">2</option>
 							</select>
 							<div class="chart-box-info">
 								<div class="chart-box-price">-187.77 руб.</div>
