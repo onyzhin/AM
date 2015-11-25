@@ -1,12 +1,3 @@
-addDefaultCharset UTF-8
-
-
-Options +FollowSymlinks
-<IfModule mod_rewrite.c>
-RewriteEngine on
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*) process.php
-
-
-</IfModule>
+Options +Indexes
+DirectoryIndex mypage.html
+AddDefaultCharset UTF-8
