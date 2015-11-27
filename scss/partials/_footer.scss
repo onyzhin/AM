@@ -3,7 +3,7 @@
 
 	&-logo{
 		float: left;
-		width: pxtopercent(188);
+		width: pxtopercent(180);
 		padding: 41px 5.74468% 38px 0;
 		img{
 			-webkit-filter: grayscale(1);
@@ -13,7 +13,7 @@
 	&-menu{
 		@extend .header-menu;
 		float: left;
-		width: pxtopercent(590);
+		width: pxtopercent(550);
 		padding-top: 24px;
 		ul li{
 			padding: 0 10px;

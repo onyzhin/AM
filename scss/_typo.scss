@@ -121,6 +121,18 @@ a{
 			margin: 0 0 0 15px;
 			color:#292929;
 			&:before{content:'•';position:absolute;left:-15px; top:0; color:#292929;}
+			a{
+				border-bottom: 0 !important;
+				color: #f93f3f !important;
+				position: relative;
+				&:before{
+					color: #f93f3f !important;
+					content:'•';position:absolute;left:-15px; top:-6px; color:#292929;
+					z-index: 2;
+					background: #fff;
+					padding: 2px;
+				}
+			}
 		}
 		&>li{			
 		    font-weight: bold;
@@ -192,6 +204,13 @@ a{
 		li{
 			font-weight: normal;
 			&:before{color: #c2c2c2;}
+			a{
+				border-color: transparent;
+				&:hover{
+				    color:  #646464;
+				    border-color:  #646464;
+				}
+			}
 		}
 	}
 }

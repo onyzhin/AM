@@ -1,4 +1,4 @@
-@function pxtopercent($target, $parent: $container) {
+@function pxtopercent($target, $parent: $inner) {
   @return percentage($target / $parent);
 } 
 

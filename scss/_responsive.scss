@@ -58,7 +58,7 @@
 	}
 	.footer{
 		&-phone{
-
+    		width: 50%;
 		}
 	}
 	.main {
@@ -81,7 +81,6 @@
 	}
 	.board{
 		&-item{
-			border-bottom: 1px solid #C3C3C3;
 		    padding-bottom: 20px;
    			margin-bottom: 20px;
 
@@ -113,6 +112,7 @@
 	.footer-phone{
 	    font-size: 19px;
 	    padding-top: 55px;
+	    text-align: right;
 	}
 	.firstScreen{
 	    padding-top: 27px;
@@ -183,7 +183,7 @@
 		}
 	}	
 	.footer-phone {
-	    font-size: 14px;
+	    font-size: 13px;
 	    padding-top: 46px;
 	}
 }

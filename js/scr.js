@@ -50,7 +50,9 @@ function slickInit(){
 		  slidesToShow: 1,
 		  slidesToScroll: 1,
 		  arrows: true,
-		  fade: true
+		  fade: true,
+		  autoplay: true,
+  		  autoplaySpeed: 5000
 		});
 	}
 	if ($('.slider-for').length){

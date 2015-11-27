@@ -2,8 +2,10 @@
 	&-list{
  
 	}
-	&-item{
-		margin-bottom: 110px;
+	&-item{    
+		margin-bottom: 55px;
+    	padding-bottom: 55px;
+		border-bottom: 1px solid #C3C3C3;
 		@extend %last; 
 		&-head{
 			@extend %clear;
